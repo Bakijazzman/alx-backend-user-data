@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """ Module to manage the API authentication."""
 from flask import request
@@ -56,4 +55,3 @@ class Auth:
     def current_user(self, request=None) -> TypeVar('User'):
         """ Validates current user """
         return None
-
